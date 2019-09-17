@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 
 function ServiceHandler() {
     $data = new stdClass();
-    $data->Output = "saayara narasimhareddy!";
+    $data->Output = "saayara!";
 
     return json_encode($data);
 };
